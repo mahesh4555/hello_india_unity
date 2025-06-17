@@ -1,0 +1,2 @@
+ snmpwalk -v3 -u admin -A "pwd" -X "pwd" -a SHA -x AES -l authPriv 1.1.1.1
+ snmpwalk -v2c -c cisco123 -OS 1.1.1.1
